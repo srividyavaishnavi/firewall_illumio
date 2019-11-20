@@ -8,7 +8,7 @@ FirewallTest.java - The JUnit class which tests all the common cases and the edg
 1)BeforeClass - The static method to initalize the object of the class Firewall
 2)A set of 7 testcases testAcceptPacket1-7 - These test cases check for common and edge cases with the 4 arguments of direction,protocol,port,and ipv4address
 3)AfterClass- Gives the output of the csv file which was initalized in the BeforeClass
-
+************************************************************************************************************************
 
 IMPLEMENTATION
 Firewall.java
@@ -24,7 +24,7 @@ Scenario 1 - the port is an integer
 8)boolean rangeDiff(String range1, String range2, boolean type) - confirms whether the values in a given range are mentioned properly ie range1<range2 .The type attribute is the numeric types long or integer
 9)boolean valueRange(String value, int max, int min) - confirms whether the value is within the min and max range
 
-************************************************************************************************************************
+
 Constants.java
 
 To maintain the validation rules, this interface stores those values
